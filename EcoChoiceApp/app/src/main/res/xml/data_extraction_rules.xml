@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Включить резервное копирование для большинства данных -->
+        <include domain="sharedpref" path="." />
+        <include domain="database" path="." />
+        
+        <!-- Исключить чувствительные данные -->
+        <exclude domain="cache" />
+    </cloud-backup>
+</data-extraction-rules>

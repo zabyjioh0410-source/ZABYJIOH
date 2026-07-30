@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EcoChoice</string>
+    <string name="product_image">Изображение продукта</string>
+    <string name="search_hint">Поиск эко-продуктов...</string>
+    <string name="eco_score">Эко-рейтинг: %d%%</string>
+</resources>
